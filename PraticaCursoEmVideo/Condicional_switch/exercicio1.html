@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+<body>
+
+    <h4>Ler um número e qual a operaçao realizar: Dobro, cubo ou raiz</h4>
+
+    <form method="get" action="exercicio1.php">
+        Número Escolhido:
+        <input type="number" name="num"> <br><br>
+            <fieldset><legend>Operação:</legend>
+                <input type="radio" name="operador" value="1" id="dobro">
+                <label for="dobro">Dobro</label>
+
+                <input type="radio" name="operador" value="2" id="cubo">
+                <label for="cubo">Cubo</label>
+
+                <input type="radio" name="operador" value="3" id="raiz">
+                <label for="raiz">Raiz</label>
+            </fieldset>
+
+        <input type="submit" value="Calcular">
+        
+    </form>
+    
+</body>
+</html>
